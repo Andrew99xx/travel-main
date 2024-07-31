@@ -24,13 +24,13 @@ html {
 }
 
 section {
-    /* padding: 5rem 9%; */
+    padding: 5rem 9%;
 }
 
 .heading {
     text-align: center;
     font-size: 4rem;
-    color: #4e4d4d;
+    color: #333;
     padding: 1rem;
     margin: 2rem 0;
     background: rgba(255, 131, 8, 0.095);
@@ -260,6 +260,9 @@ td {
     gap: 1.5rem;
 }
 
+
+/* -----------products----------- */
+
 .products .box-container .box {
     flex: 1 1 30rem;
     box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
@@ -297,17 +300,9 @@ td {
 
 /* ----------------table-------------- */
 
-.products {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.table1 {
-    width: 82vw;
+table {
+    width: 100%;
     /* border-collapse: collapse; */
-    /* border: 2px solid red; */
 }
 
 .full-column p {
@@ -320,29 +315,21 @@ td {
 
 .full-column {
     height: 33vh;
-    /* width: 9vw; */
-    text-align: center;
-    padding: 7rem 0 0 0;
+    width: 9vw;
 }
 
-.table1 th,td {
+th,td {
     text-align: center;
     border: 2px solid black;
-    padding: 0px;
-    font-size: 2rem;
+    padding: 20px;
 }
 
 .container-table {
-    /* border: 2px solid yellowgreen; */
-    width: 82vw;
     border: 2px solid black;
-    /* position: relative;
-    left: 17vh; */
 }
 
 tbody {
     height: 62vh;
-    /* border: 2px solid orange; */
 }
 
 .td1 {
@@ -430,127 +417,6 @@ tbody {
 }
 
 /* ------------------------------------- */
-
-/* -------------Himalayas------ */
-
-#pic1 {
-    background-image: url('../images/image-removebg-preview.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 59vh;
-    width: 62vh;
-}
-
-#pic2 {
-    background-image: url('../images/image-removebg-preview\ \(1\).png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 59vh;
-    width: 62vh;
-}
-
-#pic3 {
-    background-image: url('../images/image-removebg-preview\ \(2\).png');
-    height: 59vh;
-    width: 62vh;
-}
-
-#pic4 {
-    background-image: url('../images/image-removebg-preview\ \(3\).png');
-    height: 59vh;
-    width: 62vh;
-}
-
-#pic5 {
-    background-image: url('../images/image-removebg-preview\ \(4\).png');
-    height: 59vh;
-    width: 62vh;
-}
-
-#pic6 {
-    /* background-image: url('../images/Himalaya-img-1.jpg'); */
-    height: 59vh;
-    width: 83vh;
-    background-size: cover;
-}
-
-#pic7 {
-    /* background-image: url('../images/Himalaya-img-2.jpg'); */
-    height: 59vh;
-    width: 40vh;
-    background-size: contain;
-    background-position: center;
-}
-
-#pic8 {
-    /* background-image: url('../images/Himalaya-img-3.jpg'); */
-    height: 59vh;
-    width: 85vh;
-    background-size: contain;
-    background-position: center;
-}
-
-.pictures {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    gap: 2vh;
-    justify-content: space-between;
-    /* border: 2px solid red; */
-} 
-
-.pictures h1 {
-    text-align: center;
-}
-
-.pic:hover {
-    background: #42414179;
-    cursor: pointer;
-    transform: translateY(-10px);
-}
-
-.pic {
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: space-between;
-    border: 2px solid black;
-    background-size: contain;
-    background-repeat: no-repeat;
-    /* height: 59vh;
-    width: 62vh; */
-}
-/* --------------------------- */
-.products .box-container .box .image .icons {
-    position: absolute;
-    bottom: -7rem;
-    left: 0;
-    right: 0;
-    display: flex;
-}
-
-.products .box-container .box:hover .image .icons {
-    bottom: 0;
-}
-
-.products .box-container .box .image .icons a {
-    height: 5rem;
-    line-height: 5rem;
-    font-size: 2rem;
-    width: 50%;
-    background: var(--pink);
-    color: #fff;
-}
-
-.products .box-container .box .image .icons .cart-btn {
-    border-left: .1rem solid #fff7;
-    border-right: .1rem solid #fff7;
-    width: 100%;
-}
-
-.products .box-container .box .image .icons a:hover {
-    background: #333;
-}
 
 .products .box-container .box .content {
     padding: 2rem;
@@ -828,6 +694,11 @@ tbody {
     padding: 5px;
 }
 
+
+
+
+
+
 .custom-swal-popup{
     width: 60vw;
     height: auto;
@@ -864,186 +735,14 @@ tbody {
     font-weight: 600;
 }
 
-/* ------------------Trek and travel and education----------- */
-.destinations {
-    /* padding: 10px; */
-    padding: 10vh 5rem;
-}
+/* ------------------Education----------- */
 
-.destinations ol {
-    list-style-type: disc;
-    position: relative;
-    top: 2vh;
-    display: flex;
-    flex-direction: column;
-    gap: 1vh;
-}
-
-.termscontent {
-    display: flex;
-    flex-direction: column;
-    gap: 2vh;
-}
-
-.definitions ul{
-    position: relative;
-    top: 2vh;
-    display: flex;
-    flex-direction: column;
-    gap: 1vh;
-}
-
-.trekimg1 {
-    /* background-image: url('/images/Trek1-corrected.jpg'); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    /* width: 100vw; */
-    /* border: 2px solid black; */
-}
-
-.trekimg2 {
-    /* background-image: url('/images/Trek2-corrected.jpg'); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100vh;
-    /* width: 100vw; */
-    /* border: 2px solid black; */
-    margin-top: 2rem;
-}
-
-.trekimg3 {
-    /* background-image: url('/images/Trek3.jpg'); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin-top: 2rem;
-}
-
-.trekimg4 {
-    /* background-image: url('/images/Trek4.jpg'); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 66vh;
-    margin-top: 2rem;
-}
-
-.trekimg5 {
-    /* background-image: url('/images/Trek5.jpg'); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100vh;
-    /* margin-top: 2rem; */
-}
-
-.trek-info {
-    display: flex;
-    flex-direction: column;
-    gap: 5vh;
-}
-
-.edu-img1 {
-    /* background-image: url('/images/Education-img-1.jpg'); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-.edu-img2 {
-    /* background-image: url('/images/Education-img-2.jpg'); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-.edu-img3 {
-    /* background-image: url('/images/Education-img-3.jpg'); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-.edu-img4 {
-    /* background-image: url('/images/Education-img-4.jpg'); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-.edu-img {
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
-    gap: 15vh;
-    position: relative;
-    left: 20%;
-}
-
-/* -------Terms--------- */
-
-.termscontent ol{
-    list-style: disc;
-}
-
-.terms-img {
-    display: flex;
-    flex-direction: column;
-    gap: 15vh;
-}
-
-.terms-img1 {
-    /* background-image: url('/images/Terms-img1.jpg'); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-
-.terms-img2 {
-    /* background-image: url('/images/Terms-img2.jpg'); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100vh;
-    /* margin-top: 2rem; */
-}
-
-/* --------------Jyoth------------ */
-/* .jyoth1 {
-    background-image: url(../images/jyot1.jpg);
-} */
-
-.content-image {
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100vh;
-    width: 100vw;
-    float: left;
-}
-
-#jyotirlingas {
-    display: flex;
-    justify-content: space-between;
-    gap: 3vh;
-    flex-wrap: wrap;
-    flex: 0 0 auto;
-}
-
-.termscontent p {
-    /* flex: 1 1 0; */
-    /* width: 100%; */
-    overflow: hidden;
-    text-align: justify;
-}
-
-.jyot-guide {
-    /* background-image: url('/images/Jyoti-img.jpg'); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100vh;
+ol {
+    list-style-type: circle;
 }
 
 /* media queries  */
-@media (min-width: 1440px) {
+@media (max-width:991px) {
 
     html {
         font-size: 55%;
@@ -1061,154 +760,9 @@ tbody {
         background-position: left;
     }
 
-    .container-table {
-        width: 83w;
-        left: 0;
-    }
-
-    .full-column p{
-        width: 21vw;
-        height: 15vh;
-        display: flex;
-        justify-content: center;
-    }
 }
 
-@media only screen and (min-width: 1035px) and (max-width: 1439px) {
-    html {
-        font-size: 55%;
-    }
-
-    header {
-        padding: 2rem;
-    }
-
-    section {
-        padding: 2rem;
-    }
-
-    .home {
-        background-position: left;
-    }
-
-    .container-table {
-        width: 83w;
-        left: 0;
-    }
-
-    .full-column p{
-        width: 21vw;
-        height: 15vh;
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media only screen and (min-width: 834px) and (max-width: 1023px) {
-    header .fa-bars {
-        display: block;
-    }
-
-    header .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background: #eee;
-        border-top: .1rem solid rgba(0, 0, 0, .1);
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    }
-
-    header #toggler:checked~.navbar {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    }
-
-    header .navbar a {
-        margin: 1.5rem;
-        padding: 1.5rem;
-        background: #fff;
-        border: .1rem solid rgba(0, 0, 0, .1);
-        display: block;
-    }
-
-    .home .content h3 {
-        font-size: 5rem;
-    }
-
-    .home .content span {
-        font-size: 3rem;
-    }
-
-    .icons-container .icons h3 {
-        font-size: 2rem;
-    }
-
-    .icons-container .icons span {
-        font-size: 1.7rem;
-    }
-    .custom-swal-popup{
-        width: 80vw;
-        height: auto;
-        min-height: 500px;
-    }
-
-    /* -------------table------------- */
-    .container-table {
-        width: 90vw;
-        left: 0;
-    }
-
-    .table1 th, td {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-    tbody {
-        width: 10vw;
-    }
-
-    .table1 {
-        width: 90vw;
-    }
-
-    .full-column {
-        height: 71vh;
-        width: 23vw;
-    }
-
-    .full-column p {
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 834px) {
-    /* -------------table------------- */
-    .container-table {
-        width: 90vw;
-        left: 0;
-    }
-
-    .table1 th, td {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-    tbody {
-        width: 10vw;
-    }
-
-    .table1 {
-        width: 90vw;
-    }
-
-    .full-column {
-        height: 71vh;
-        width: 27vw;
-    }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 768px) {
+@media (max-width:768px) {
 
     header .fa-bars {
         display: block;
@@ -1256,95 +810,9 @@ tbody {
         height: auto;
         min-height: 500px;
     }
+    
 
-    /* -------------table------------- */
-    .container-table {
-        width: 97vw;
-    }
-
-    .table1 th, td {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-    tbody {
-        width: 10vw;
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
-    }
-
-    .table1 {
-        width: 81vw;
-    }
-
-    .full-column {
-        height: 71vh;
-        width: 23vw;
-    }
-
-    .full-column p {
-        height: 25vh;
-        width: 32vw;
-        display: flex;
-        justify-content: center;
-    }
-
-    .exception {
-        text-align: center;
-    }
 }
-
-@media only screen and (min-width: 450px) and (max-width:600px){
-    /* -------------table------------- */
-    .container-table {
-        width: 135vw;
-        position: relative;
-        left: 17vh;
-        right: 20vh;
-        margin: 0 0 0 20px;
-        padding: 0 0 0 0;
-        text-align: center;
-    }
-
-    .table1 th, td {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-    tbody {
-        width: 10vw;
-    }
-
-    .table1 {
-        width: 90vw;
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
-    }
-
-    .full-column {
-        height: 71vh;
-        width: 21vw;
-    }
-
-    .full-column p {
-        height: 24vh;
-        width: 34vw;
-        display: flex;
-        /* flex-direction: column; */
-        justify-content: center;
-    }
-
-    /* --------Himalaya------- */
-    #pic1 {
-        height: 41vh;
-        width: 41vw;
-    }
-    #pic2 {
-        height: 41vh;
-        width: 41vw;
-    }
-}
-
 
 @media (max-width:450px) {
 
@@ -1361,46 +829,9 @@ tbody {
         min-height: 500px;
     }
     
-    /* -------------table------------- */
-    .container-table {
-        width: 203vw;
-        /* margin: 0 0 0 36px; */
-        /* left: 0; */
-    }
 
-    .table1 th, td {
-        font-size: 1.5rem;
-        /* text-align: center; */
-    }
-
-    .table1 {
-        width: 77vw;
-        margin: 0 0 0 223px;
-        padding: 0 0 0 0;
-    }
-
-    .full-column {
-        height: 71vh;
-        width: 21vw;
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
-    }
-
-    .full-column p {
-        height: 16vh;
-        width: 63vw;
-    }
-
-    /* ----------Himalaya------ */
-    #pic1 {
-        height: 41vh;
-        width: 41vw;
-    }
-    #pic2 {
-        height: 41vh;
-        width: 41vw;
-    }
 }
+
 
 
 
